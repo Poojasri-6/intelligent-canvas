@@ -75,10 +75,28 @@ const HeroSection = () => {
 
       <div className="container mx-auto relative z-10 py-20 mt-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Profile Image (First on mobile, second on desktop) */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
+            className="flex justify-center order-1 lg:order-2 mb-12 lg:mb-0 relative z-20"
+          >
+            <div className="relative">
+              <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-2 border-primary/30 glow-box relative z-30">
+                <img src={profileImg} alt="Poojasri M" width={512} height={512} className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute -inset-4 rounded-full border border-primary/10 animate-rotate-slow z-10" />
+              <div className="absolute -inset-8 rounded-full border border-primary/5 animate-rotate-slow z-0" style={{ animationDirection: "reverse", animationDuration: "30s" }} />
+            </div>
+          </motion.div>
+
+          {/* Intro Text (Second on mobile, first on desktop) */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="order-2 lg:order-1"
           >
             <p className="text-primary font-medium mb-4 tracking-wider uppercase text-sm">
               AI Engineer • Full-Stack AI Developer
@@ -114,21 +132,6 @@ const HeroSection = () => {
                 <Mail size={18} /> Contact Me
               </button>
             </motion.div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.5, duration: 0.8 }}
-            className="flex justify-center order-first lg:order-last mb-12 lg:mb-0"
-          >
-            <div className="relative">
-              <div className="w-72 h-72 rounded-full overflow-hidden border-2 border-primary/30 glow-box">
-                <img src={profileImg} alt="Poojasri M" width={512} height={512} className="w-full h-full object-cover" />
-              </div>
-              <div className="absolute -inset-4 rounded-full border border-primary/10 animate-rotate-slow" />
-              <div className="absolute -inset-8 rounded-full border border-primary/5 animate-rotate-slow" style={{ animationDirection: "reverse", animationDuration: "30s" }} />
-            </div>
           </motion.div>
         </div>
 
