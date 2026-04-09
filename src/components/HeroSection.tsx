@@ -120,7 +120,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="hidden lg:flex justify-center"
+            className="flex justify-center order-first lg:order-last mb-12 lg:mb-0"
           >
             <div className="relative">
               <div className="w-72 h-72 rounded-full overflow-hidden border-2 border-primary/30 glow-box">
