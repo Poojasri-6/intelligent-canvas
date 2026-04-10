@@ -1,0 +1,21 @@
+Poojasri M | AI Engineer — LLMs, ML Systems & Automation
+
+Poojasri M is an AI Engineer specializing in building intelligent systems, scalable ML systems, LLM-powered applications, and agentic workflows.
+
+## Key Skills
+- Large Language Models (LLMs) & RAG
+- Agentic AI Workflows & Automation
+- Machine Learning & Deep Learning
+- Full-Stack AI Development
+- ML Systems Architecture
+
+## Contact
+- Email: srimpooja@gmail.com
+- LinkedIn: https://linkedin.com/in/pooja-mani-aa540b255
+- Website: https://poojasri.in
+
+## Core Expertise
+- Designing and implementing scalable ML systems.
+- Developing LLM-powered applications and agentic AI workflows.
+- Bridging the gap between AI research and real-world implementation.
+- End-to-end development from raw data pipelines to production deployment.

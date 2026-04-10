@@ -13,35 +13,41 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "AI Digital Presence Systems",
-    description: "AI-driven digital ecosystems with automation, analytics, and LLM integration for multiple enterprise websites.",
-    stack: ["React", "Next.js", "LLM APIs", "n8n", "Analytics"],
-    achievements: ["Built aramanalytics.com & deeptrust.tech", "Full AI automation pipelines", "Scalable multi-site architecture"],
+    title: "AI Content Intelligence Platform (LLM CMS)",
+    description: "Production-ready CMS with AI-powered search, summarization, and tagging integrated with MySQL and Groq API.",
+    stack: ["Next.js", "TypeScript", "MySQL", "Groq API", "JWT"],
+    achievements: ["JWT Authentication", "AI Summarization & Tagging", "Knowledge Graph Construction", "NLQ Search"],
+  },
+  {
+    title: "Enterprise Digital Platform with Automation",
+    description: "Highly automated business platforms with behavior analysis and SEO optimization for multiple live clients.",
+    stack: ["React.js", "Node.js", "LLM APIs", "Automation"],
+    achievements: ["Email Automation system", "Behavior Analysis engine", "Live at aramanalytics.com & deeptrust.tech"],
     link: "https://aramanalytics.com",
   },
   {
-    title: "LLM Content Intelligence Platform",
-    description: "Multi-CMS integration platform with AI-powered search, summarization, tagging, and knowledge graph construction.",
-    stack: ["Python", "OpenAI", "WordPress", "Drupal", "Joomla"],
-    achievements: ["Multi-CMS integration", "AI search & summarization", "Knowledge graph generation"],
-  },
-  {
     title: "Airplane Delay Prediction System",
-    description: "Machine learning model achieving 87% accuracy for predicting flight delays, deployed as a web application.",
-    stack: ["Python", "Scikit-learn", "Flask", "Pandas"],
-    achievements: ["87% prediction accuracy", "Real-time Flask web app", "Feature engineering pipeline"],
+    description: "Machine learning model achieving 87% accuracy for predicting flight delays, featuring a real-time prediction API.",
+    stack: ["Python", "XGBoost", "Flask", "Pandas"],
+    achievements: ["87% prediction accuracy", "Real-time Prediction REST API", "High-performance XGBoost model"],
   },
   {
-    title: "Crop Recommendation System (XAI)",
-    description: "Hybrid XGBoost + CNN system with SHAP explainability for crop recommendations and disease detection.",
-    stack: ["XGBoost", "CNN", "SHAP", "TensorFlow", "Python"],
-    achievements: ["Explainable AI with SHAP", "Hybrid ML approach", "Disease detection module"],
+    title: "Crop Recommendation System (Explainable AI)",
+    description: "Hybrid ML + CNN system for soil and image-based crop predictions with an integrated interactive chatbot.",
+    stack: ["Hybrid ML", "CNN", "XGBoost", "Python", "Chatbot"],
+    achievements: ["Soil + Image-based predictions", "Explainable AI (XAI) integration", "Interactive Chatbot interface"],
   },
   {
-    title: "EDA Automation System",
-    description: "Automated exploratory data analysis with profiling, visualization generation, and analytics pipeline.",
-    stack: ["Python", "Pandas", "Matplotlib", "Automation"],
-    achievements: ["Automated profiling", "Report generation", "Pipeline optimization"],
+    title: "Automated EDA System",
+    description: "Statistical reporting tool that generates deep correlations and outlier detections, significantly reducing analysis time.",
+    stack: ["Python", "ydata-profiling", "Pandas", "Automation"],
+    achievements: ["70% reduction in manual effort", "Statistical Report Generation", "Correlation & Outlier Detection"],
+  },
+  {
+    title: "Train Ticket Booking System",
+    description: "Full-stack MERN application for managing train reservations with role-based access control.",
+    stack: ["MongoDB", "Express.js", "React", "Node.js"],
+    achievements: ["Role-based Access Control", "Seat Availability Management", "End-to-end Booking Workflow"],
   },
 ];
 

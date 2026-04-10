@@ -9,6 +9,8 @@ import ShowcaseSection from "@/components/ShowcaseSection";
 import AIEcosystemSection from "@/components/AIEcosystemSection";
 import ChatbotSection from "@/components/ChatbotSection";
 import EducationSection from "@/components/EducationSection";
+import AchievementsSection from "@/components/AchievementsSection";
+import BlogSection from "@/components/BlogSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -24,7 +26,9 @@ const Index = () => (
     <ShowcaseSection />
     <AIEcosystemSection />
     <ChatbotSection />
+    <BlogSection />
     <EducationSection />
+    <AchievementsSection />
     <ContactSection />
     <Footer />
   </div>

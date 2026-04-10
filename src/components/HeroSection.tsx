@@ -99,8 +99,13 @@ const HeroSection = () => {
             className="order-2 lg:order-1"
           >
             <p className="text-primary font-medium mb-4 tracking-wider uppercase text-sm">
-              AI Engineer • Full-Stack AI Developer
+              AI Engineer • Full-Stack Java Developer • Python Developer
             </p>
+
+            {/* Hidden H1 for SEO */}
+            <h1 className="sr-only">
+              Poojasri M | AI Engineer — Java, Python, LLMs & ML Systems
+            </h1>
 
             <TypingText />
 
@@ -110,7 +115,7 @@ const HeroSection = () => {
               transition={{ delay: 2.5, duration: 0.6 }}
               className="text-muted-foreground text-lg mt-6 max-w-lg leading-relaxed"
             >
-              AI Engineer specializing in scalable ML systems, LLM-powered applications, and agentic workflows
+              AI & ML Engineer specializing in scalable ML systems, LLM-powered applications, and Java Full-Stack development.
             </motion.p>
 
             <motion.div

@@ -16,22 +16,27 @@ const AboutSection = () => (
 
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <AnimatedSection>
-          <div className="space-y-5 text-muted-foreground leading-relaxed">
+          <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              I'm an AI Engineer passionate about building intelligent systems that deliver measurable business impact. 
-              With expertise spanning machine learning, deep learning, and large language models, I architect 
-              end-to-end solutions — from raw data pipelines to production-ready deployments.
+              I am an AI & ML Engineer and Full Stack Developer with 10 months of hands-on internship experience spanning AI/ML engineering, full-stack web development, and cloud deployment. 
+              My journey is driven by the challenge of building scalable, production-ready AI systems that solve complex real-world problems. 
+              I bridge the gap between architectural research and practical software engineering, delivering products that are both innovative and efficient.
             </p>
             <p>
-              My focus lies in developing LLM-powered applications and agentic AI workflows that automate 
-              complex processes, enhance decision-making, and create scalable digital ecosystems. I combine 
-              strong full-stack development skills with cutting-edge AI research to bridge the gap between 
-              innovation and real-world implementation.
+              Currently, I specialize in Generative AI, LLM orchestration, and automated data pipelines. 
+              I have a proven track record of delivering enterprise-grade systems, achieving up to <strong>87% ML model accuracy</strong> 
+              and a <strong>70% reduction in manual data analysis effort</strong> for client projects. 
+              My expertise includes working with modern frameworks like React.js, Node.js, and Next.js, along with a suite of LLM APIs including Groq, OpenAI, Claude, and Gemini.
             </p>
             <p>
-              Whether it's building content intelligence platforms, predictive analytics systems, or 
-              AI-driven automation pipelines, I bring a systems-thinking approach that ensures reliability, 
-              scalability, and impact at every layer of the stack.
+              I believe that the true power of technology lies in its ability to augment human potential. 
+              Whether it's building LLM-powered CMS platforms with NLQ search or developing hybrid ML systems 
+              for predictive analytics, I am committed to delivering value that is measurable and transformative. 
+              I thrive in the intersection of AI Engineering, System Design, and Business Automation.
+            </p>
+            <p>
+              When I'm not building intelligent systems, you can find me solving problems on CodeChef (300+ problems), 
+              playing squash at a state level, or exploring the latest in cloud-native technologies and agentic workflows.
             </p>
           </div>
         </AnimatedSection>

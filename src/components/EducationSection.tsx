@@ -3,11 +3,13 @@ import SectionHeading from "./SectionHeading";
 import { GraduationCap, Award } from "lucide-react";
 
 const certifications = [
-  "Deloitte — Data Analytics",
-  "AI Fundamentals Certification",
-  "Cloud Foundations",
-  "Infosys — Technology Certifications",
-  "NPTEL — Advanced Coursework",
+  "Deloitte Data Analytics Simulation",
+  "AI Fundamentals — Great Learning",
+  "Cloud Foundations — Great Learning",
+  "Cybersecurity — Great Learning",
+  "Infosys Springboard (Network, Testing)",
+  "UI/UX Design — Coursera",
+  "NPTEL (Python, OOPS, Java Patterns)",
 ];
 
 const EducationSection = () => (
@@ -22,12 +24,27 @@ const EducationSection = () => (
               <GraduationCap className="text-primary" size={24} />
               <h3 className="font-display text-xl font-bold text-foreground">Education</h3>
             </div>
-            <div>
-              <h4 className="font-semibold text-foreground">B.E. Computer Science</h4>
-              <p className="text-muted-foreground text-sm mt-1">2022 – 2026</p>
-              <div className="mt-4 flex items-center gap-2">
-                <span className="text-primary font-display font-bold text-2xl">8.31</span>
-                <span className="text-muted-foreground text-sm">CGPA</span>
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-semibold text-foreground">B.E. Computer Science & Engineering</h4>
+                <p className="text-primary text-sm font-medium">Ramco Institute of Technology</p>
+                <div className="flex items-center gap-2 mt-2">
+                  <span className="text-muted-foreground text-xs">2022 – 2026</span>
+                  <span className="text-muted-foreground text-xs">•</span>
+                  <span className="text-primary font-bold text-lg">8.44</span>
+                  <span className="text-muted-foreground text-xs">CGPA</span>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-4 pt-4 border-t border-border/50">
+                <div>
+                  <p className="text-foreground text-sm font-semibold">HSC (12th)</p>
+                  <p className="text-primary font-bold text-lg">85.6%</p>
+                </div>
+                <div>
+                  <p className="text-foreground text-sm font-semibold">SSLC (10th)</p>
+                  <p className="text-primary font-bold text-lg">80.4%</p>
+                </div>
               </div>
             </div>
           </div>
@@ -39,10 +56,10 @@ const EducationSection = () => (
               <Award className="text-primary" size={24} />
               <h3 className="font-display text-xl font-bold text-foreground">Certifications</h3>
             </div>
-            <ul className="space-y-3">
+            <ul className="grid gap-2">
               {certifications.map((cert) => (
                 <li key={cert} className="flex items-center gap-3 text-muted-foreground text-sm">
-                  <span className="w-2 h-2 rounded-full gradient-accent flex-shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full gradient-accent flex-shrink-0" />
                   {cert}
                 </li>
               ))}
